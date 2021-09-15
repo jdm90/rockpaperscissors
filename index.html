@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>RPS</title>
+</head>
+<body>
+  
+    <header>
+        <h1>Rock, Paper, Scissors!</h1>
+    </header>
+    <br>
+    <main>
+        <button class="btn" onclick="resetScore()">Reset Score</button>
+        <button class="btn" onclick="cheatCode()">Cheat Code</button>
+    </main>
+    <br>
+    <section>
+        <p id="score">PLAYER SCORE: 0 || COMPUTER SCORE: 0</p>
+        <br>
+        <p id="uChoice" style="font-weight: bold;">Make a choice!</p>
+        <p id="cChoice">But beware... <span style="font-style: italic">the computer is tough.</span></p>
+        <p id="winner">Best of luck.</p>
+        <p><span style="font-weight: bold;">REMEMBER:</span> Rock breaks scissors // scissors cut paper // paper covers rock</p>
+    </section>
+    <br>
+    <section>
+        <img class="rps-img" id="rock" src="img/rock.png" onclick="playGameRock()">
+        <img class="rps-img" id="paper" src="img/paper.png" onclick="playGamePaper()">
+        <img class="rps-img" id="scissors" src="img/scissors.png" onclick="playGameScissors()">
+    </section>
+    <br>
+    <footer>
+        Created by <a href="www.justinmiles.io" target="_BLANK">Justin Miles</a> // n0mad<br>
+        2021
+    </footer>
+
+    <script src="rockpaperscissors.js"></script>
+
+</body>
+</html>
