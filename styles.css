@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    width: auto;
+    text-align: center;
+    background-color: #131B23;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.rps-img:active {
+    transform: translateY(4px);
+}
+
+.rps-img:hover {
+    cursor: pointer;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    zoom: 1.5;
+}
